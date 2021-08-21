@@ -1,6 +1,6 @@
 const knex = require('knex')({
     client: 'pg',
-    version: '13.2',
+    version: '13.3',
     connection: {
       host : 'ec2-52-0-67-144.compute-1.amazonaws.com',
       user : 'xqvbkofxrutdbx',
