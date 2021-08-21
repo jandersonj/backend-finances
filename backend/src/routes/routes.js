@@ -49,6 +49,11 @@ router.delete('/user/data/lancamento/:id', tokenAuth, Finance.delete)
 
 router.post('/user/validate', tokenAuth, Finance.validate)
 
+
+router.get('/user/teste', function(req,res){
+  res.send("estamos aqui")
+})
+
 module.exports = router
 
 
