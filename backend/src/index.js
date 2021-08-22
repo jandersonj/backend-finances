@@ -3,7 +3,7 @@ const express = require('express')
 var cors = require('cors')
 const app = express()
 const router = require('./routes/routes')
-app.use(cors())
+app.use('*',cors())
 
 app.use(express.json())
 app.use(urlencoded({extended: true}))
